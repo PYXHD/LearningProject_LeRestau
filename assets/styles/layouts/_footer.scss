@@ -27,13 +27,13 @@ footer {
         }
         h3 {
           font-family: $font1;
-          font-size: 3rem;
+          font-size: 2rem;
           color: $brown1;
         }
 
         p {
           font-family: $font3;
-          font-size: 1.2rem;
+          font-size: 0.7rem;
           color: $white1;
           line-height: 40px;
         }
@@ -46,7 +46,6 @@ footer {
 
         h3 {
           font-family: $font3;
-          font-size: 1.2rem;
           text-transform: uppercase;
           letter-spacing: 2px;
           color: $white1;
@@ -56,7 +55,6 @@ footer {
         input {
           background: none;
           border: 1px solid gray;
-          font-size: 1.2rem;
           padding: 8px;
           color: gray;
         }
@@ -68,7 +66,6 @@ footer {
             gap: 30px;
 
             li i {
-              font-size: 1.2rem;
               color: gray;
               cursor: pointer;
               transition: 0.2s ease-in-out;

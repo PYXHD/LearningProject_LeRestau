@@ -67,7 +67,7 @@ header nav .name {
           justify-content: flex-end;
   padding-right: 30px;
   font-family: Allura-regular;
-  font-size: 3rem;
+  font-size: 2rem;
   color: rgb(245, 245, 245);
 }
 header nav .navbar {
@@ -79,7 +79,7 @@ header nav .navbar {
           justify-content: space-evenly;
   font-family: Roboto-light;
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 0.7rem;
 }
 @media screen and (max-width: 900px) {
   header nav .navbar {
@@ -121,7 +121,7 @@ header nav .socials {
   display: flex;
   gap: 20px;
   padding-left: 30px;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 header nav .socials li {
   cursor: pointer;
@@ -149,13 +149,13 @@ header .header-container {
 }
 header .header-container h1 {
   font-family: Allura-regular;
-  font-size: 5rem;
-  line-height: 60px;
+  font-size: 3rem;
+  line-height: 40px;
   color: #a67245;
 }
 @media screen and (max-width: 768px) {
   header .header-container h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 header .header-container h1 span {
@@ -165,18 +165,19 @@ header .header-container h1 span {
   color: rgb(245, 245, 245);
 }
 header .header-container img {
-  width: 60px;
+  width: 40px;
   margin: 0 auto;
 }
 header .header-container p {
   font-family: Poppins-medium;
+  font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 8px;
   color: rgb(245, 245, 245);
 }
 @media screen and (max-width: 768px) {
   header .header-container p {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
 }
 
@@ -219,23 +220,23 @@ header .header-container p {
 }
 .section1 .left-part h2 {
   font-family: Allura-regular;
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 30px;
   color: #a67245;
 }
 @media screen and (max-width: 768px) {
   .section1 .left-part h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 .section1 .left-part h2 span {
   font-family: Poppins-medium;
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 @media screen and (max-width: 768px) {
   .section1 .left-part h2 span {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 .section1 .left-part img:first-of-type {
@@ -244,11 +245,10 @@ header .header-container p {
 }
 .section1 .left-part p {
   font-family: Roboto-light;
-  font-size: 1.2rem;
 }
 @media screen and (max-width: 768px) {
   .section1 .left-part p {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
 .section1 .left-part .avatar-01 {
@@ -277,13 +277,12 @@ header .header-container p {
 }
 .section1 .left-part .avatar-01 span:last-of-type {
   font-family: Poppins-medium;
-  font-size: 1.2rem;
   text-transform: uppercase;
   color: #a67245;
 }
 @media screen and (max-width: 768px) {
   .section1 .left-part .avatar-01 span:last-of-type {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
 .section1 .right-part {
@@ -323,16 +322,16 @@ header .header-container p {
 }
 .section2 h2 {
   font-family: Allura-regular;
-  font-size: 3rem;
+  font-size: 2rem;
   color: #a67245;
 }
 @media screen and (max-width: 768px) {
   .section2 h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 .section2 img {
-  width: 40px;
+  width: 30px;
   margin: 0 auto;
 }
 .section2 ul {
@@ -359,7 +358,7 @@ header .header-container p {
 }
 .section2 ul li {
   font-family: Roboto-light;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: rgb(245, 245, 245);
   cursor: pointer;
   -webkit-transition: 0.2s ease-in-out;
@@ -367,7 +366,7 @@ header .header-container p {
 }
 @media screen and (max-width: 768px) {
   .section2 ul li {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
 .section2 ul li::after {
@@ -434,26 +433,24 @@ header .header-container p {
 }
 .section2 .menu > div h3 {
   font-family: Roboto-light;
-  font-size: 1.2rem;
   text-transform: uppercase;
 }
 @media screen and (max-width: 768px) {
   .section2 .menu > div h3 {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
 .section2 .menu > div p {
   font-family: Roboto-light;
-  font-size: 1.2rem;
 }
 @media screen and (max-width: 768px) {
   .section2 .menu > div p {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
 .section2 .menu > div span {
   font-family: Poppins-medium;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #a67245;
 }
 @media screen and (max-width: 768px) {
@@ -486,14 +483,14 @@ header .header-container p {
 }
 @media screen and (max-width: 1200px) {
   .section3 .section3-container {
-    height: 1000px;
+    height: 850px;
     grid-template-columns: 1fr;
     grid-template-rows: 50% 50%;
   }
 }
 @media screen and (max-width: 900px) {
   .section3 .section3-container {
-    height: 1200px;
+    height: 1050px;
     grid-template-rows: 40% 60%;
   }
 }
@@ -532,28 +529,28 @@ header .header-container p {
 }
 .section3 .section3-container .open .open-container h2 {
   font-family: Allura-regular;
-  font-size: 3rem;
+  font-size: 2rem;
   color: #a67245;
-  line-height: 30px;
+  line-height: 20px;
 }
 @media screen and (max-width: 768px) {
   .section3 .section3-container .open .open-container h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 .section3 .section3-container .open .open-container h2 span {
   font-family: Poppins-medium;
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: rgb(245, 245, 245);
 }
 @media screen and (max-width: 768px) {
   .section3 .section3-container .open .open-container h2 span {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 .section3 .section3-container .open .open-container img {
-  width: 40px;
+  width: 30px;
   margin: 0 auto;
 }
 @media screen and (max-width: 1200px) {
@@ -563,24 +560,24 @@ header .header-container p {
 }
 .section3 .section3-container .open .open-container div span {
   font-family: Poppins-medium;
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-transform: uppercase;
   color: #a67245;
 }
 @media screen and (max-width: 768px) {
   .section3 .section3-container .open .open-container div span {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
 .section3 .section3-container .open .open-container div p {
   font-family: Roboto-light;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: rgb(245, 245, 245);
   padding: 15px 0 30px;
 }
 @media screen and (max-width: 768px) {
   .section3 .section3-container .open .open-container div p {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
 .section3 .section3-container .reservation {
@@ -612,19 +609,19 @@ header .header-container p {
 }
 .section3 .section3-container .reservation .reservation-container h2 {
   font-family: Allura-regular;
-  font-size: 3rem;
+  font-size: 2rem;
   color: #a67245;
-  line-height: 30px;
+  line-height: 20px;
 }
 @media screen and (max-width: 768px) {
   .section3 .section3-container .reservation .reservation-container h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 .section3 .section3-container .reservation .reservation-container h2 span {
   font-family: Poppins-medium;
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 @media screen and (max-width: 768px) {
   .section3 .section3-container .reservation .reservation-container h2 span {
@@ -659,12 +656,11 @@ header .header-container p {
   width: 100%;
   border: none;
   border-bottom: 1px solid rgb(11, 11, 11);
-  font-size: 1.2rem;
 }
 @media screen and (max-width: 768px) {
   .section3 .section3-container .reservation .reservation-container form input,
   .section3 .section3-container .reservation .reservation-container form select {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
 .section3 .section3-container .reservation .reservation-container form .graystyle {
@@ -1038,18 +1034,16 @@ header .header-container p {
 }
 .section5 div p {
   font-family: Roboto-light;
-  font-size: 1.2rem;
   line-height: 30px;
   padding-bottom: 60px;
 }
 .section5 div span:nth-of-type(1) {
   font-family: Roboto-light;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-bottom: 10px;
 }
 .section5 div span:nth-of-type(2) {
   font-family: Roboto-light;
-  font-size: 1.2rem;
   color: #a67245;
 }
 
@@ -1093,12 +1087,12 @@ footer .footer-container > div {
 }
 footer .footer-container > div:first-child h3 {
   font-family: Allura-regular;
-  font-size: 3rem;
+  font-size: 2rem;
   color: #a67245;
 }
 footer .footer-container > div:first-child p {
   font-family: Roboto-light;
-  font-size: 1.2rem;
+  font-size: 0.7rem;
   color: rgb(245, 245, 245);
   line-height: 40px;
 }
@@ -1114,7 +1108,6 @@ footer .footer-container > div:last-child {
 }
 footer .footer-container > div:last-child h3 {
   font-family: Roboto-light;
-  font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: rgb(245, 245, 245);
@@ -1123,7 +1116,6 @@ footer .footer-container > div:last-child h3 {
 footer .footer-container > div:last-child input {
   background: none;
   border: 1px solid gray;
-  font-size: 1.2rem;
   padding: 8px;
   color: gray;
 }
@@ -1140,7 +1132,6 @@ footer .footer-container > div:last-child div:last-child ul {
   gap: 30px;
 }
 footer .footer-container > div:last-child div:last-child ul li i {
-  font-size: 1.2rem;
   color: gray;
   cursor: pointer;
   -webkit-transition: 0.2s ease-in-out;

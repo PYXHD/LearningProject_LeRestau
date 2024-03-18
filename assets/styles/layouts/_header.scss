@@ -26,7 +26,7 @@ header {
       justify-content: flex-end;
       padding-right: 30px;
       font-family: $font1;
-      font-size: 3rem;
+      font-size: 2rem;
       color: $white1;
     }
 
@@ -35,7 +35,7 @@ header {
       justify-content: space-evenly;
       font-family: $font3;
       text-transform: uppercase;
-      font-size: 1rem;
+      font-size: 0.7rem;
 
       @media screen and (max-width: 900px) {
         display: none;
@@ -73,7 +73,7 @@ header {
       display: flex;
       gap: 20px;
       padding-left: 30px;
-      font-size: 1rem;
+      font-size: 0.8rem;
 
       li {
         cursor: pointer;
@@ -98,12 +98,12 @@ header {
 
     h1 {
       font-family: $font1;
-      font-size: 5rem;
-      line-height: 60px;
+      font-size: 3rem;
+      line-height: 40px;
       color: $brown1;
 
       @media screen and (max-width: 768px) {
-        font-size: 3rem;
+        font-size: 2rem;
       }
 
       span {
@@ -115,18 +115,19 @@ header {
     }
 
     img {
-      width: 60px;
+      width: 40px;
       margin: 0 auto;
     }
 
     p {
       font-family: $font2;
+      font-size: 0.8rem;
       text-transform: uppercase;
       letter-spacing: 8px;
       color: $white1;
 
       @media screen and (max-width: 768px) {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
       }
     }
   }

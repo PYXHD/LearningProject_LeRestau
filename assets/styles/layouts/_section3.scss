@@ -13,12 +13,12 @@
       width: 80%;
     }
     @media screen and (max-width: 1200px) {
-      height: 1000px;
+      height: 850px;
       grid-template-columns: 1fr;
       grid-template-rows: 50% 50%;
     }
     @media screen and (max-width: 900px) {
-      height: 1200px;
+      height: 1050px;
       grid-template-rows: 40% 60%;
     }
     @media screen and (max-width: 768px) {
@@ -45,26 +45,26 @@
 
         h2 {
           font-family: $font1;
-          font-size: 3rem;
+          font-size: 2rem;
           color: $brown1;
-          line-height: 30px;
+          line-height: 20px;
           @media screen and (max-width: 768px) {
-            font-size: 2rem;
+            font-size: 1.5rem;
           }
 
           span {
             font-family: $font2;
             text-transform: uppercase;
-            font-size: 2rem;
+            font-size: 1.5rem;
             color: $white1;
             @media screen and (max-width: 768px) {
-              font-size: 1.5rem;
+              font-size: 1rem;
             }
           }
         }
 
         img {
-          width: 40px;
+          width: 30px;
           margin: 0 auto;
 
           @media screen and (max-width: 1200px) {
@@ -75,21 +75,21 @@
         div {
           span {
             font-family: $font2;
-            font-size: 1.2rem;
+            font-size: 1rem;
             text-transform: uppercase;
             color: $brown1;
             @media screen and (max-width: 768px) {
-              font-size: 1rem;
+              font-size: 0.8rem;
             }
           }
 
           p {
             font-family: $font3;
-            font-size: 1.2rem;
+            font-size: 1rem;
             color: $white1;
             padding: 15px 0 30px;
             @media screen and (max-width: 768px) {
-              font-size: 1rem;
+              font-size: 0.8rem;
             }
           }
         }
@@ -112,17 +112,17 @@
 
         h2 {
           font-family: $font1;
-          font-size: 3rem;
+          font-size: 2rem;
           color: $brown1;
-          line-height: 30px;
+          line-height: 20px;
           @media screen and (max-width: 768px) {
-            font-size: 2rem;
+            font-size: 1.5rem;
           }
 
           span {
             font-family: $font2;
             text-transform: uppercase;
-            font-size: 2rem;
+            font-size: 1.5rem;
 
             @media screen and (max-width: 768px) {
               font-size: 1rem;
@@ -157,10 +157,9 @@
             width: 100%;
             border: none;
             border-bottom: 1px solid $black1;
-            font-size: 1.2rem;
 
             @media screen and (max-width: 768px) {
-              font-size: 1rem;
+              font-size: 0.8rem;
             }
           }
 
