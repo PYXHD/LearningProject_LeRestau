@@ -1,0 +1,36 @@
+@font-face {
+  font-family: Allura-regular;
+  src: url(../fonts/Allura/Allura-Regular.ttf);
+}
+@font-face {
+  font-family: Poppins-medium;
+  src: url(../fonts/Poppins/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: Roboto-light;
+  src: url(../fonts/Roboto/Roboto-Light.ttf);
+}
+
+$font1: Allura-regular;
+$font2: Poppins-medium;
+$font3: Roboto-light;
+
+$white1: rgb(245, 245, 245);
+$black1: rgb(11, 11, 11);
+$brown1: #a67245;
+$darkgray: rgb(50, 50, 50);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: $black1;
+}
+
+body {
+  background: $darkgray;
+}
+
+li {
+  list-style: none;
+}
